@@ -304,10 +304,12 @@ a:hover{
     min-height: 200px;
 }
 
+
 .formBx form input::placeholder, 
 .formBx form textarea::placeholder{
     color: #999;
 }
+
 
 .formBx form input[type = "submit"]{
     max-width: 100px;
@@ -316,6 +318,7 @@ a:hover{
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
 
 .formBx form input[type = "submit"]:hover{
     background-color: chartreuse;
@@ -461,22 +464,27 @@ footer p{
     display: inline-block;
 }
 
+
 .quickLinks ul li a:hover{
     color: #fff;
 }
+
 
 footer .contactus a{
     color: #999;
 }
 
+
 footer .contactus a:hover{
     color: #fff;
 }
+
 
 .heading a{
     color: white;
     text-decoration: none;
 }
+
 
 .heading a:hover{
     color: chartreuse;
@@ -487,12 +495,15 @@ footer .contactus a:hover{
     margin: 20px 0;
 }
 
+
 .contactus li span{
     color: #999;
     margin: 0 3px;
 }
 
+
 /* Responsive Behaviour */
+
 
 @media (max-width: 1190px){
     header, header.sticky{
@@ -517,79 +528,97 @@ footer .contactus a:hover{
     .content{
         flex-direction: column;
     }
+    
 
     .w50{
         max-width: 100%;
     }
     
+    
     h3{
         font-size: 17px;
     }
 
+    
     h2{
         font-size: 23px;
     }
 
+    
     .banner{
         padding: 100px 50px;
     }
 
+    
     .contentBx{
         margin: 1rem 0;
         padding-right: 0;
     }
 
+    
     .about{
         padding: 100px 20px;
     }
 
+    
     .services{
         padding: 100px 30px;
     }
 
+    
     .work{
         padding: 100px 30px;
     }
 
+    
     .work .content .workBx{
         width: 100%;
     }
 
+    
     p{
         font-size: 13px;
     }
 
+    
     .contact h2{
         font-size: 21px;
         margin-bottom: 1rem;
     }
 
+    
     .contact{
         padding: 100px 20px;
     }
 
+    
     .contact form h3{
         text-align: center;
         margin-top: 2rem;
     }
 
+    
     .contact p{
         margin-bottom: 1rem;
     }
 
+    
     footer{
         flex-direction: row;
         padding: 50px 50px 0px 50px;
     }
 
+    
     footer h2{
         font-size: 19px;
     }
 
+    
     footer .quickLinks{
         display: none;
     }
 
+    
     footer .copyright{
         margin-top: 2rem;
         text-align: center;
@@ -600,16 +629,19 @@ footer .contactus a:hover{
         margin: 0;
     }
 
+    
     header ul li a{
         color: #111;
         font-size: 24px;
         margin: 10px;
     }
     
+    
     .menu.active{
         left: 0%;
     }
 
+    
     .toggle{
         width: 40px;
         height: 40px;
@@ -619,17 +651,21 @@ footer .contactus a:hover{
         cursor: pointer;
     }
 
+    
     .toggle.active{
         background: url('close.png') no-repeat;
         background-position: center;
         background-size: 25px;
         cursor: pointer;
     }
+    
 
     header.sticky .toggle{
         filter: invert(1);
     }
 }
+
+
 
 @media (max-width:440px){
     footer .sec{
